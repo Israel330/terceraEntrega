@@ -1,0 +1,259 @@
+
+
+*{
+	font-family:'Smooch Sans', sans-serif;
+	
+	}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	background-image:url("../imagenes/space-4.jpg");
+	background-repeat: all;
+	text-align: center;
+}
+
+//audio
+
+
+.audio{
+	margin-top: 30rem;
+	margin-bottom: 30rem;
+	margin-left: 100rem;
+}
+
+
+//Experimento
+
+.header-conteiner{
+	display: grid;
+	width: 99%;
+	grid-row-gap: 100px;
+	grid-template-columns: repeat (4, 300px);
+	grid-template-rows: 300px 300px;
+	grid-template-areas:  "fot1 fot2"
+	                      "fot3 fot4" 
+	                      "fot5 fot6"
+	                      "fot7 fot8";
+
+}
+
+.img_1{
+	grid-area: fot1;
+	
+}
+.img_2{
+	grid-area: fot2;
+	
+}
+.img_3{
+	grid-area: fot3;
+}
+.img_4{
+	grid-area: fot4;
+}
+.img_5{
+	grid-area: fot5;
+}
+.img_6{
+	grid-area: fot6;
+}
+.img_7{
+	grid-area: fot7;
+}
+.img_{
+    grid-area: fot8;
+}
+
+
+//crousel
+
+#h5{
+	color: rgb (255, 255, 255);
+	font-family: 'Roboto', sans-serif;
+	font-size: 8rem;
+	font-weight: 500;
+	list-style-type: none;
+	background-color: grey;
+
+}
+
+// accordeon
+
+
+.accordeon{
+	color: rgb (97, 130, 212);
+	font-family: 'Roboto', sans-serif;
+	font-size: 3rem;
+	font-weight: 500;
+	list-style-type: none;
+	background-color: rgb (235, 208, 199);
+	text-align: center;
+
+}
+#acord_1{
+	background-color: rgb (235, 208, 199);
+}
+
+
+.texto_4 code:first-letter{
+           font-weight: 4rem;
+           color: green;	
+
+}
+
+//grillas
+
+.grid-container{
+     display: grid;
+     grid-template-rows: 250px 250px;
+     grid-template-columns: repeat(2, 1fr);
+     grid-column-gap: 4rem;
+     grid-template-areas: "img_1 img_2" "video video" ;
+     width: 100% ;
+     padding-left: 50rem;
+     
+  
+}
+
+
+.img_1{
+	grid-area: img_1;
+	width: 500px;
+	height: 250px;
+	
+}
+
+.img_2 {
+	grid-area: img_2;
+	width: 500px;
+	height: 250px;
+	padding-left: 10rem ;
+
+	
+}
+
+
+.video{
+	grid-area: video;
+	width: 500px;
+	height: 250px;
+	padding-left: 5rem ;
+	
+}
+
+header { 
+         img {
+	            width: 350px;
+	            height: auto;
+	            -webkit-transition: .3 s ease-in-out;
+	            transition: .3 s ease-in-out;
+	         }
+	        & :hover  {
+	        width: 350px;
+	         }
+
+
+
+
+//Tablas
+
+#tabla-estilo{
+	width: 3rem;
+	margin: 1.5 auto;
+	width: 50%;
+	
+
+}
+.tabla{
+	background-color: rgb (255, 255, 255, 0.3);
+    text-align: center;
+    width: 100%;
+    font-size: 2rem;
+    color: rgb (0, 0, 0);
+
+}
+
+td{
+	tr{
+	   th {
+	         border: solid 1rem;
+	         color: rgb (0, 0, 0);
+	         padding: 0;
+
+	       }  
+      }
+} 
+
+h2,h3 {
+	color: rgb (255, 255, 255);
+	font-size: 4rem;
+	font-weight: 300;
+
+}
+
+//texto
+
+h1 {
+	color: rgb (255, 255, 255);
+	font-family: 'Roboto', sans-serif;
+	font-size: 4rem;
+	font-weight: 300;
+	list-style-type: none;
+}
+.texto {
+	color: rgb (255, 255, 255);
+	font-family:'Roboto', sans-serif; 
+	font-size: 5rem;
+	line-height: 3rem;
+	background-color: rgb (76, 68, 102, 0.2);
+}
+
+.texCenter{
+	text-align: center;
+	background-color: rgb (109, 96, 156, 0.2);
+	font-size: 5rem;
+}
+
+.texto_2{
+    color: rgb (255, 255, 255);
+    font-family: 'Roboto', sans-serif; 
+    font-size: 20px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+#pie{
+	font-size: 5rem;
+
+}
+
+.texto_3{
+	color: rgb (255, 255, 255);
+	font-family:'Roboto', sans-serif; 
+	font-size: 2rem;
+}
+
+.texto_4 {
+	color: rgb (255, 255, 255);
+	font-size: 1.5rem;
+}
+
+
+#h5{
+	color: rgb (255, 255, 255);
+	font-family: 'Roboto', sans-serif;
+	font-size:3rem;
+	font-weight: 500;
+	list-style-type: none;
+	background-color: rgb (117, 71, 39,0.1)
+
+}
+
+
+
+#accordeon{
+	background-color: rgb (80, 86, 115);
+}
