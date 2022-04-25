@@ -14,5 +14,18 @@ footer{
                 	     padding: 10 rem;
                 	     margin-left:10 rem ;
                          }
-               }
-}
+                        
+                        & hover{
+
+                          box-shadow: 13px 14px 9px 10px rgba(0,0,0,1);
+                         -webkit-box-shadow: 13px 14px 9px 10px rgba(0,0,0,1);
+                         -moz-box-shadow: 13px 14px 9px 10px rgba(0,0,0,1);
+                         transform: skew(10deg);
+                         cursor: pointer;
+                         transition: transform 2s;
+                              }
+
+                             
+                }
+
+} 

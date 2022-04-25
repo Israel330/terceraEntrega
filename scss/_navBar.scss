@@ -3,13 +3,15 @@
 	 text-align: center;
 	 display: flex;
 	 list-style: none;
-      justify-content: space-around;
+       justify-content: space-around;
+      
+
 
 }
 .nav-items{
 	font-family: 'Roboto', sans-serif; 
 	                 font-size: 1.5rem;
-	                 color: rgb (255, 255, 255);
+	                 color: $color-terciario;
 	                 text-decoration: none;
 	                 text-align: center;
 	                 justify-content:space-around;
@@ -17,8 +19,8 @@
 }
 
 .btn_color{
-	background-color: rgb (255, 255, 255);
-	border-color: rgb (255, 255, 255);
+	background-color:$color-terciario;
+	border-color:$color-terciario;
 }
 .btn-shop:hover{
 	color: beige;

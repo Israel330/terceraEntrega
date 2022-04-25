@@ -3,64 +3,75 @@
 
 //texto
 
-h2,h3{
-	color: rgb (255, 255, 255);
-	font-size: 4 rem;
-	font-weight: 300;
 
-}
 
 h1 {
-	color: rgb (255, 255, 255);
+	color:$color-terciario;
 	font-family: 'Roboto', sans-serif;
-	font-size: 4 rem;
+	font-size: $medida-uni;
 	font-weight: 300;
 	list-style-type: none;
 }
 
+
+h2,h3 {
+	color: $color-terciario;
+	font-size: $medida-uni;
+	font-weight: 300;
+
+}
+
+//texto
+
+
+
 .texto {
-	color: rgb (255, 255, 255);
+	color: $color-terciario;
 	font-family:'Roboto', sans-serif; 
-	font-size: 5 rem;
-	line-height: 3 rem;
+	font-size: 5rem;
+	line-height: 3rem;
 	background-color: rgb (76, 68, 102, 0.2);
 }
 
 .texCenter{
 	text-align: center;
 	background-color: rgb (109, 96, 156, 0.2);
-	font-size: 5 rem;
+	color: $color-terciario;
+	font-family: 'Roboto', sans-serif;
+	font-size: $medida-uni;
+	font-weight: 300;
+	list-style-type: none;
 }
 
 .texto_2{
-    color: rgb (255, 255, 255);
+    color: $color-terciario;
     font-family: 'Roboto', sans-serif; 
-    font-size: 20 px;
-    padding-left: 3 px;
-    padding-right: 3 px;
+    font-size: 20px;
+    padding-left: 3px;
+    padding-right: 3px;
 }
 
 #pie{
-	font-size: 5 rem;
+	font-size: 5rem;
 
 }
 
 .texto_3{
-	color: rgb (255, 255, 255);
+	color: $color-terciario;
 	font-family:'Roboto', sans-serif; 
-	font-size: 2 rem;
+	font-size: 2rem;
 }
 
 .texto_4 {
-	color: rgb (255, 255, 255);
-	font-size: 1.5 rem;
+	color:$color-terciario;
+	font-size: 1.5rem;
 }
 
 
 #h5{
-	color: rgb (255, 255, 255);
+	color:$color-terciario;
 	font-family: 'Roboto', sans-serif;
-	font-size:3 rem;
+	font-size:3rem;
 	font-weight: 500;
 	list-style-type: none;
 	background-color: rgb (117, 71, 39,0.1)
@@ -68,7 +79,8 @@ h1 {
 }
 
 
-
 #accordeon{
 	background-color: rgb (80, 86, 115);
+	border-radius: 3px;
+
 }

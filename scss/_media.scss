@@ -1,0 +1,43 @@
+@media only screen and (min-width: 600px) {
+	html{
+		display: grid;
+		grid-template-columns:  1fr;
+		grid-template-rows: auto;
+		grid-template-areas: "nav" "fotos" "audio" "texto" "footer";
+		text-align: center;
+}
+
+nav{
+	display: flex ;
+	flex-direction: column;
+}
+section{
+	grid-area: fotos;
+}
+div{
+	grid-area: audio;
+}
+section{
+	grid-area: texto;
+}
+footer{
+	grid-area: footer;
+	display: inline-block;
+}
+.img_1{
+	width: 225px;
+	height: 300px;
+
+}
+
+/*footer media*/
+.footer{
+	display: inline-block;
+
+
+
+	
+
+}
+}
+
